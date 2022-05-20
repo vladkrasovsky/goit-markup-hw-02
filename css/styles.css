@@ -53,7 +53,14 @@ body {
   list-style-type: none;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .title {
+  margin-bottom: 50px;
+  margin-top: 0;
   font-size: 36px;
   line-height: 1.16;
   color: var(--text-color-dark);
@@ -62,6 +69,19 @@ body {
 
 .text-accent {
   color: var(--accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /* -----------------------HEADER--------------------- */
@@ -97,7 +117,7 @@ body {
 
 /* -----------------------HERO----------------------- */
 .hero {
-  min-height: 600px;
+  /* min-height: 600px; */
   padding-bottom: 50px;
   padding-top: 50px;
   text-align: center;
@@ -105,6 +125,7 @@ body {
 }
 .hero-title {
   margin-bottom: 30px;
+  margin-top: 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -112,8 +133,30 @@ body {
   text-transform: uppercase;
   color: var(--text-color-light);
 }
-/* -----------------------BENEFITS------------------- */
 
+/* -----------------------BENEFITS------------------- */
+.benefits {
+  padding-bottom: 0;
+}
+.benefits-item {
+  margin-bottom: 25px;
+}
+.benefits-item-title {
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color-dark);
+}
+.benefits-item-text {
+  margin-top: 0;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
 /* -----------------------WORK----------------------- */
 
 /* -----------------------TEAM----------------------- */
