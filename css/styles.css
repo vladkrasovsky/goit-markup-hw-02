@@ -10,6 +10,7 @@
   --section-bg-light: #f5f4fa;
   --button-bg: #f5f4fa;
   --card-bg: #ffffff;
+  --header-border-color: #ececec;
 }
 
 body {
@@ -94,6 +95,20 @@ body {
 }
 
 /* -----------------------HEADER--------------------- */
+.header {
+  border-bottom: 1px solid var(--header-border-color);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-list-item.current .header-link {
+  color: var(--accent-color);
+}
+
 .logo {
   font: 700 26px "Raleway", sans-serif;
   line-height: 1.19;
@@ -108,16 +123,6 @@ body {
 .logo-light:hover,
 .logo-light:focus {
   color: var(--logo-color-light);
-}
-
-.header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.header-list-item.current .header-link {
-  color: var(--accent-color);
 }
 
 /* -----------------------HERO----------------------- */
