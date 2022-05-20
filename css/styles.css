@@ -6,7 +6,8 @@
   --text-color-light: #ffffff;
   --logo-color-dark: #000000;
   --logo-color-light: #ffffff;
-  --section-background-dark: #2f303a;
+  --section-bg-dark: #2f303a;
+  --button-bg: #f5f4fa;
 }
 
 body {
@@ -18,7 +19,26 @@ body {
 
 /* -----------------------UTILITY_CLASSES------------ */
 .button {
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-color-dark);
+  background-color: var(--button-bg);
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
+}
+.button-accent {
+  color: var(--text-color-light);
+  background-color: var(--accent-color);
+}
+.button-accent:hover,
+.button-accent:focus {
+  color: var(--text-color-dark);
+  background-color: var(--text-color-light);
 }
 
 .link {
@@ -77,7 +97,20 @@ body {
 
 /* -----------------------HERO----------------------- */
 .hero {
-  background-color: var(--section-background-dark);
+  min-height: 600px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: var(--section-bg-dark);
+}
+.hero-title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color-light);
 }
 /* -----------------------BENEFITS------------------- */
 
@@ -87,5 +120,5 @@ body {
 
 /* -----------------------FOOTER--------------------- */
 .footer {
-  background-color: var(--section-background-dark);
+  background-color: var(--section-bg-dark);
 }
