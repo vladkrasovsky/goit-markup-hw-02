@@ -7,6 +7,7 @@
   --logo-color-dark: #000000;
   --logo-color-light: #ffffff;
   --section-bg-dark: #2f303a;
+  --section-bg-light: #f5f4fa;
   --button-bg: #f5f4fa;
 }
 
@@ -157,9 +158,22 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 /* -----------------------WORK----------------------- */
+.work {
+  text-align: center;
+}
+.work-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
 /* -----------------------TEAM----------------------- */
+.team {
+  text-align: center;
+  background-color: var(--section-bg-light);
+}
 
 /* -----------------------FOOTER--------------------- */
 .footer {
