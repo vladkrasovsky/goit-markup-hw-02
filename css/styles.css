@@ -258,6 +258,7 @@ body {
 }
 .filter-item {
   display: inline-block;
+  margin-bottom: 8px;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
