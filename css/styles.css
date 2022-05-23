@@ -234,6 +234,9 @@ body {
 .card-body {
   padding-left: 30px;
   padding-right: 30px;
+}
+.card-title,
+.card-text {
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
